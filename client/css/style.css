@@ -1,0 +1,42 @@
+body {
+  background-color: grey;
+}
+.flex-big {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vh;
+  height: 60vh;
+
+  align-items: center;
+  justify-content: center;
+}
+.flex-big form {
+  display: flex;
+  flex-direction: column;
+  width: 40vh;
+}
+.back {
+  background-color: white;
+  padding: 45px 45px;
+  border-radius: 15px;
+}
+.hide {
+  display: none;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0px 0px;
+  grid-template-areas:
+    ". toto toto ."
+    ". toto toto ."
+    ". toto toto .";
+}
+.toto {
+  grid-area: toto;
+  background-color: mistyrose;
+  min-height: 20vh;
+  padding: 5px 5px;
+  border-radius: 10px;
+}

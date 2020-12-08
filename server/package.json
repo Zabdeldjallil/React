@@ -1,6 +1,5 @@
 {
   "name": "tutorial-react-parcel-express",
-  "type": "module",
   "version": "1.0.0",
   "description": "A tiny getting started for a react project, with front-end built with parcel, and served through express.",
   "main": "index.js",
